@@ -15,3 +15,50 @@
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
 }
+
+.header-border-bottom {
+    display: block;
+    width: 70px;
+    height: 5px;
+    background-color: #5BB66F;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.btn-dark:hover {
+    background-color: #343a40;
+    border-color: #343a40;
+    color: #fff;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+
+.date-box {
+    background-color:#373A3C;
+    color:white;
+    padding-bottom:8px;
+}
+
+    .date-box p:first-child {
+        font-size: 40px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .date-box p:last-child {
+        font-size: 14px;
+        text-align: center;
+        margin-bottom:0;
+    }
