@@ -62,3 +62,22 @@
         text-align: center;
         margin-bottom:0;
     }
+
+.background-dark {
+    background-color:#eeeeee;
+    border-top: 1px solid #848484;
+}
+
+.card-subtitle {
+    color: #6c757d!important;
+    font-size:12px!important;
+}
+
+footer .primary {
+    background-color:#373A3C;
+
+}
+
+footer .secondary {
+    background-color: #000000;
+}
