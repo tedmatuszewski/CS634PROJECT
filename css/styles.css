@@ -75,9 +75,25 @@
 
 footer .primary {
     background-color:#373A3C;
-
+    padding: 20px;
 }
 
 footer .secondary {
     background-color: #000000;
+    padding: 20px;
+}
+
+footer p, footer label {
+    color:white;
+    margin: 0;
+}
+
+footer a {
+    color:#9B9D9E;
+    font-size: 30px;
+    margin:0 3px;
+}
+
+footer a:hover {
+    color:#737677;
 }
