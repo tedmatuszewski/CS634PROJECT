@@ -97,3 +97,7 @@ footer a {
 footer a:hover {
     color:#737677;
 }
+
+body {
+    position: relative;
+}

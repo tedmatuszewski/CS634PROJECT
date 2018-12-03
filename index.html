@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-<body>
+<body >
     <header>
         <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
             <a class="navbar-brand" href="#">Chris Freedman</a>
@@ -21,19 +21,19 @@
             </button>
             <div class="navbar-collapse collapse" id="navbarCollapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Music/Events</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Store</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#music">Music/Events</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#store">Store</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
     <main role="main">
-        <div style="margin-top:55px;" class="carousel slide" id="myCarousel" data-ride="carousel">
+        <div style="margin-top:55px;" data-page="#home" class="carousel slide" id="myCarousel" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li class="active" data-target="#myCarousel" data-slide-to="0"></li>
                 <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -82,7 +82,7 @@
         </div>
 
         <div class="container-fluid">
-            <div class="row mt-5">
+            <div class="row mt-5" data-page="#music">
                 <div class="col-sm-5">
                     <h1 class="d-flex justify-content-center">Music</h1>
                     <div class="d-flex justify-content-center"><div class="header-border-bottom"></div></div>
@@ -168,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="row background-dark mt-4">
+            <div class="row background-dark mt-4" data-page="#blog">
                 <div class="col-sm-12">
                     <h1 class="d-flex justify-content-center mt-3">Blog</h1>
                     <div class="d-flex justify-content-center mb-4"><div class="header-border-bottom"></div></div>
@@ -233,7 +233,7 @@
                 </div>
             </div>
 
-            <h1 class="d-flex justify-content-center mt-4">Store</h1>
+            <h1 data-page="#store" class="d-flex justify-content-center mt-4">Store</h1>
             <div class="d-flex justify-content-center"><div class="header-border-bottom"></div></div>
 
             <div class="row mt-4">
@@ -254,7 +254,7 @@
                 </div>
             </div>
 
-            <div class="row background-dark mt-4 pb-5">
+            <div class="row background-dark mt-4 pb-5" data-page="#about">
                 <div class="col">
                     <h1 class="d-flex justify-content-center mt-4">About</h1>
                     <div class="d-flex justify-content-center"><div class="header-border-bottom"></div></div>
@@ -270,7 +270,7 @@
                 </div>
             </div>
 
-            <h1 class="d-flex justify-content-center mt-4">Contact</h1>
+            <h1 data-page="#contact" class="d-flex justify-content-center mt-4">Contact</h1>
             <div class="d-flex justify-content-center"><div class="header-border-bottom"></div></div>
 
             <div class="row mt-4">
@@ -352,8 +352,9 @@
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="js/site.js"></script>
 </body>
 </html>
