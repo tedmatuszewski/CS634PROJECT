@@ -39,6 +39,18 @@
     color: #fff;
 }
 
+.btn-green {
+    color: #fff;
+    background-color: #5BB66F;
+    border-color: #5BB66F;
+}
+
+.btn-green:hover {
+    color: #fff;
+    background-color: #3d884d;
+    border-color: #3d884d;
+}
+
 .btn-outline-dark:hover {
     color: #fff;
     background-color: #23272b;
@@ -102,6 +114,67 @@ footer a:hover {
 
 body {
     position: relative;
+}
+
+.store-item {
+    position:relative;
+}
+
+.mask {
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition:all 0.4s ease-in-out;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    padding: 0 15px;
+}
+
+.mask-inner {
+    background: rgba(16,17,19,0.8);
+    padding: 30px;
+    padding-top: 45px;
+    height: 100%;
+    overflow: hidden;
+    color: #fff;
+    display:block;
+}
+
+.store-item:hover .mask {
+    visibility: visible;
+    -webkit-opacity: 1;
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.merch-section .mask .item-title {
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 5px;
+    font-family: "Raleway",sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.merch-section .mask span {
+    display: block;
+}
+
+.merch-section .mask .desc {
+    font-size: 16px;
+    margin-bottom: 30px;
 }
 
 .carousel-item img {
