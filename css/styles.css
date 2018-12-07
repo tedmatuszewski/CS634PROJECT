@@ -181,6 +181,14 @@ body {
     height:463px;
 }
 
+#lightbox-display {
+    z-index: 10000;
+}
+
+.lightbox-img {
+    cursor:pointer;
+}
+
 @media (max-width: 61.9em) { 
     .carousel-item img {
         height:400px;
