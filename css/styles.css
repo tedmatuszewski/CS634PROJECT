@@ -107,3 +107,21 @@ body {
 .carousel-item img {
     height:463px;
 }
+
+@media (max-width: 61.9em) { 
+    .carousel-item img {
+        height:400px;
+    }
+}
+
+@media (max-width: 47.9em) { 
+    .carousel-item img {
+        height:363px;
+    }
+}
+
+@media (max-width: 33.9em) { 
+    .carousel-item img {
+        height:263px;
+    }
+}
