@@ -49,6 +49,8 @@
     background-color:#373A3C;
     color:white;
     padding-bottom:8px;
+    max-width:250px;
+    margin: 0 auto;
 }
 
     .date-box p:first-child {
